@@ -1,0 +1,143 @@
+/*styles for new MVC ashland final 9/25/11*/
+*{
+	margin:0;
+	padding:0;
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#fff;
+	color:#000;
+	margin:.2em;
+}
+p{
+	margin-top:.5em;
+}
+a{
+	text-decoration:none;
+	color:#090;
+	/*font-weight:bold;*/
+}
+a:hover{
+	color:#900;
+	text-decoration:underline;
+}
+#holder{
+		margin:0 auto;
+		width:900px;
+		border:1px solid #000;
+		padding:.3em;
+}
+#head{
+		height:50px;
+		background-image:url(../graphics/soccerball.gif);
+		background-repeat:no-repeat;
+		border-bottom:1px solid #000;
+}
+#head h1{
+		text-align:center;
+		font-variant:small-caps;
+		margin-top:.3em;
+}
+
+h1{color:#990000}
+
+#content{
+	text-align:center;
+}
+
+.output_tables{
+         font-size:12px;
+		
+		 width:650px;
+		
+		 margin:0 auto;
+}
+table{
+	margin:0 auto;
+	width:100%;
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+table td{
+	border:1px dashed #000;
+}
+#listtable td{
+	text-align:center;
+	
+}
+/*style to format edit player form*/
+#form_table{
+	width:400px;
+}
+#form_table td {
+	background-color:#ccc;
+	padding:.2em;
+}
+/*end styles to format edit player form*/
+/*styles to edit new player form*/
+#widetable{
+	width:100%;
+	font-size:.7em;
+	padding:0;
+}
+#widetable td{
+	text-align:center;
+}
+/*end styles to edit new player form*/
+/*style for login form*/
+#log{
+	width:100px;
+	text-align:center;
+	margin:0 auto;
+}
+#log td{
+	padding:.2em;
+}
+/*end login form style*/
+ 
+/*start styles unique to the show_team_roster.php*/
+#sidebar{
+	float:left;
+	width:120px;
+	//border:1px dashed #000;
+	text-align:left;
+	padding-left:1em;
+}
+#sidebar p{
+	margin-top:0;
+}
+#roster_col{
+	width:755px;
+	margin-left:140px;
+	padding:.2em;
+}
+#roster_col table{
+	border:1px dashed #000;
+	padding:.2em;
+}
+/*end show_team_roster.php styles*/
+.credits{
+  text-align:center; 
+  font-size:12px;
+}
+.centerit{
+	text-align:center;
+}
+.toright{
+	text-align:right;
+}
+/*style to format small_box areas */
+#small_box{
+    width:250px;
+	border:1px solid #000;
+	padding:1em;
+	margin:0 auto;
+	
+}
+/* end format for small_box areas */
+#footer{
+    margin-top:1em;
+	border-top:1px solid #000;
+	padding:1em;
+}
